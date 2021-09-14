@@ -1,5 +1,5 @@
 # Sergey Garshin
-##Junior Software Engineer (Front-end / Javascript)
+## Junior Software Engineer (Front-end / Javascript)
 ### Contact information:
 **Phone:**+7(925)870-17-61
 
