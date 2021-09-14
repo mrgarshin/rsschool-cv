@@ -32,7 +32,6 @@ I have 10 years experience in retail. Had a way from the seller to shop manager.
 ### Education (courses, online-edu incl.):
 * Complete [FreeCodeCamp Responsive Web Desigh certification](https://www.freecodecamp.org/certification/mrgarshin/responsive-web-design);
 * In progress [FreeCodeCamp JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
-*
 ### Languages:
 * English - intermediate ([EFSet quick check](https://www.efset.org/quick-check/) indicated that i have 73% (85% on reading, 61% on listening))
 * Russian - native
