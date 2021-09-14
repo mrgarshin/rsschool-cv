@@ -16,7 +16,17 @@
 * JavaScript Basic.
 
 ### Code:
-
+```
+function teleportRight() {
+  return new Promise(function(resolve, reject) {
+    car.style.transition = "";
+    car.style.left = (0 - car.getBoundingClientRect().width) + "px";
+    setTimeout(() => {
+      resolve();
+    }, 0);
+  });
+}
+```
 ### Job experience:
 
 ### Education (courses, online-edu incl.):
