@@ -1,19 +1,25 @@
-Sergey Garshin
+#Sergey Garshin
 
-Contact information:
-phone
-email
-telegram
-phonenumber
+###Contact information:
+**Phone:**+7(925)870-17-61
+**email:** garshin.serg@yandex.ru
+**Telegram:** @mrgarshin
 
-About me:
 
-Skills:
+###About me:
 
-Code:
+###Skills:
+* HTML5, CSS3;
+* VS Code;
+* Git;
+* JavaScript Basic.
 
-Job experience:
+###Code:
 
-Education (courses, online-edu incl.):
+###Job experience:
 
-English knowledge level:
+###Education (courses, online-edu incl.):
+
+###Languages:
+* English - intermediate ([EFSet quick check](https://www.efset.org/quick-check/) indicated that i have 73% (85% on reading, 61% on listening))
+* Russian - native
