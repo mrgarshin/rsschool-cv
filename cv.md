@@ -1,5 +1,4 @@
 # Sergey Garshin
----
 
 
 ## Contacts
@@ -11,9 +10,11 @@
 
 
 ## About me
+
+
 Now i work at IT company as a manager. I do administrative work.
 My goal is to get better and explore world around me. I think that i decide what my life will look like and i have enough self-descipline to achieve goals.
----
+
 
 
 ## Skils
@@ -21,7 +22,7 @@ My goal is to get better and explore world around me. I think that i decide what
 * HTML, CSS;
 * JavaScript;
 * Git.
----
+
 ## Code examples
 ```
 function doubleInteger(i) {
