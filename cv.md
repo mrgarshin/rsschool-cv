@@ -1,30 +1,39 @@
 # Sergey Garshin
+---
 
 
 ## Contacts
-phone
-tg
-discord
-email
+* **phone:**+7(925) 870-17-61
+* **tg:** @mrgarshin
+* **discord:** Sergey Garshin ( @mrgarshin )
+* **email:** garshin.serg@yandex.ru
+---
+
 
 ## About me
+Now i work at IT company as a manager. I do administrative work.
+My goal is to get better and explore world around me. I think that i decide what my life will look like and i have enough self-descipline to achieve goals.
+---
 
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
 
 ## Skils
-
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-
+* Markdown;
+* HTML, CSS;
+* JavaScript;
+* Git.
+---
 ## Code examples
-
-Примеры кода
-
+```
+function doubleInteger(i) {
+  return i*2;
+}
+```
 ## Experience
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
+[Link to CV][https://mrgarshin.github.io/rsschool-cv/cv]
 
 ## Education
-Образование (включая пройденные курсы и тренинги)
+Sociology higher education - 2013.
+---
 
-## Languages
-
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+## English
+**A2** (in progress). Studied english only at school. Now i'm learning enlgish with Youtube and reading adapted books ('The hitchhiker's guide' is my favorite)
