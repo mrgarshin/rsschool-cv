@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
       <div class="header__photo">
-        <img src="./images/avatar.JPG" alt="My photo">
+        <img src="./images/avatar.JPG" alt="My photo" class="header__photo_item">
       </div>
       <div class="header__text">
         <h1 class="header__title">Sergey Garshin</h1>
@@ -19,7 +21,29 @@
     </header>
     <main class="main">
       <div class="main__column-left">
-        <section class="contacs"></section>
+        <section class="contacs">
+          <h2 class="section__title">Contacs</h2>
+          <ul class="contacs__items">
+            <li class="contacs__item">
+              <div class="contacs__item_icon"></div>
+              <div class="contacs__item_link">
+                <a href="https://github.com/mrgarshin">Github: mrgarshin</a>
+              </div>
+            </li>
+            <li class="contacs__item">
+              <div class="contacs__item_icon"></div>
+              <div class="contacs__item_link">
+                <a href="https://t.me/mrgarshin">Telegram: @mrgarshin</a>
+              </div>
+            </li>
+            <li class="contacs__item">
+              <div class="contacs__item_icon"></div>
+              <div class="contacs__item_link">
+                <a href="mailto:garshin.serg@yandex.ru">garshin.serg@yandex.ru</a>
+              </div>
+            </li>
+          </ul>
+        </section>
         <section class="skills"></section>
         <section class="education"></section>
         <section class="languages"></section>
@@ -31,7 +55,9 @@
       </div>
     </main>
     <footer class="footer">
-
+      <div class="footer__item">mrgarshin</div>
+      <div class="footer__item">RSSchool 2023</div>
+      <div class="footer__item">ссылка на курс</div>
     </footer>
   </div>
 </body>
