@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sergey Garshin</title>
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 
@@ -11,58 +11,85 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__photo">
-        <img src="./images/avatar.JPG" alt="My photo" class="header__photo_item">
-      </div>
-      <div class="header__text">
-        <h1 class="header__title">Sergey Garshin</h1>
-        <h3 class="header__subtitle">Junior software engineer</h3>
+      <nav class="header-nav">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#" class="nav-item_link">About me</a></li>
+          <li class="nav-item"><a href="#" class="nav-item_link">Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-item_link">Projects</a></li>
+          <li class="nav-item"><a href="#" class="nav-item_link">Code examples</a></li>
+          <li class="nav-item"><a href="#" class="nav-item_link">Education</a></li>
+          <li class="nav-item"><a href="#" class="nav-item_link">languages</a></li>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <div class="header__photo">
+          <img src="./images/avatar.JPG" alt="My photo" class="header__photo_item">
+        </div>
+        <div class="header__text">
+          <h1 class="header__title">Sergey Garshin</h1>
+          <h2 class="header__subtitle">Junior software engineer</h2>
+          <div class="contacs">
+            <h2 class="contacs__title">Contact me:</h2>
+            <ul class="contacs__items">
+              <li class="contacs__item">
+                <img src="./images/github-mark.svg" alt="github-link" class="contacs__item_icon">
+                <div class="contacs__item_link">
+                  <a href="https://github.com/mrgarshin" target="_blank">Github: mrgarshin</a>
+                </div>
+              </li>
+              <li class="contacs__item">
+                <img src="./images/Telegram_logo.svg.webp" alt="telegram" class="contacs__item_icon">
+                <div class="contacs__item_link" >
+                  <a href="https://t.me/mrgarshin" target="_blank">Telegram: @mrgarshin</a>
+                </div>
+              </li>
+              <li class="contacs__item">
+                <img src="./images/2165061.png" alt="mail" class="contacs__item_icon">
+                <div class="contacs__item_link">
+                  <a href="mailto:garshin.serg@yandex.ru" target="_blank">garshin.serg@yandex.ru</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main class="main">
-      <div class="main__column-left">
-        <section class="contacs">
-          <h2 class="section__title">Contacs</h2>
-          <ul class="contacs__items">
-            <li class="contacs__item">
-              <div class="contacs__item_icon"></div>
-              <div class="contacs__item_link">
-                <a href="https://github.com/mrgarshin">Github: mrgarshin</a>
-              </div>
-            </li>
-            <li class="contacs__item">
-              <div class="contacs__item_icon"></div>
-              <div class="contacs__item_link">
-                <a href="https://t.me/mrgarshin">Telegram: @mrgarshin</a>
-              </div>
-            </li>
-            <li class="contacs__item">
-              <div class="contacs__item_icon"></div>
-              <div class="contacs__item_link">
-                <a href="mailto:garshin.serg@yandex.ru">garshin.serg@yandex.ru</a>
-              </div>
-            </li>
-          </ul>
+        <section class="about-me">
+          <h3 class="section-title">About me</h3>
+          <div class="section-text">Now i work at IT company as a manager. I do administrative work. My goal is to get better and explore world around me. I think that i decide what my life will look like and i have enough self-descipline to achieve goals.</div>
         </section>
-        <section class="skills"></section>
-        <section class="education"></section>
-        <section class="languages"></section>
-      </div>
-      <div class="main__column-right">
-        <section class="about-me"></section>
-        <section class="projects"></section>
-        <section class="code-examples"></section>
-      </div>
+        <section class="skills">
+          <h3 class="section-title">My skills</h3>
+          <div class="section-text"></div>
+        </section>
+        <section class="projects">
+          <h3 class="section-title">My projects</h3>
+          <div class="section-text"></div>
+        </section>
+        <section class="Code-exapmles">
+          <h3 class="section-title">My code examples</h3>
+          <div class="section-text"></div>
+        </section>
+        <section class="education">
+          <h3 class="section-title">My education</h3>
+          <div class="section-text"></div>
+        </section>
+        <section class="languages">
+          <h3 class="section-title">How to comunicate with me?</h3>
+          <div class="section-text"></div>
+        </section>
     </main>
     <footer class="footer">
       <div class="footer__item footer__github">
-        <img src="" alt="">
-        <a href="https://github.com/mrgarshin" class="github-link"></a>
+        <a href="https://github.com/mrgarshin" class="github-link" target="_blank">
+          <img src="./images/GitHub_Logo.png" alt="GitHub" class="footer-link__icon">
+        </a>
       </div>
-      <div class="footer__item footer__author">mrgarshin 2023</div>
+      <div class="footer__item footer__author"> &#169 mrgarshin 2023</div>
       <div class="footer__item footer__course">
-        <a href="https://rs.school/js/" class="course-link">
-          <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool">
+        <a href="https://rs.school/js/" class="course-link" target="_blank">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" class="footer-link__icon">
         </a>
       </div>
     </footer>
