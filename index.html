@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
+    <header class="header section-wrapper">
       <nav class="header-nav">
         <ul class="nav-menu">
           <li class="nav-item"><a href="#" class="nav-item_link">About me</a></li>
@@ -32,7 +32,7 @@
             <h2 class="contacs__title">Contact me:</h2>
             <ul class="contacs__items">
               <li class="contacs__item">
-                <img src="./images/github-mark.svg" alt="github-link" class="contacs__item_icon">
+                <img src="./images/github-mark-white.png" alt="github-link" class="contacs__item_icon">
                 <div class="contacs__item_link">
                   <a href="https://github.com/mrgarshin" target="_blank">Github: mrgarshin</a>
                 </div>
@@ -55,35 +55,131 @@
       </div>
     </header>
     <main class="main">
-        <section class="about-me">
+        <section class="about-me section-wrapper">
           <h3 class="section-title">About me</h3>
           <div class="section-text">Now i work at IT company as a manager. I do administrative work. My goal is to get better and explore world around me. I think that i decide what my life will look like and i have enough self-descipline to achieve goals.</div>
         </section>
-        <section class="skills">
+        <section class="skills section-wrapper">
           <h3 class="section-title">My skills</h3>
-          <div class="section-text"></div>
+          <ul class="skills-list">
+            <li class="skills-list__item">HTML</li>
+            <li class="skills-list__item">CSS</li>
+            <li class="skills-list__item">JavaScript</li>
+            <li class="skills-list__item">Git</li>
+            <li class="skills-list__item">BEM</li>
+            <li class="skills-list__item">Figma</li>
+          </ul>
         </section>
-        <section class="projects">
+        <section class="projects section-wrapper">
           <h3 class="section-title">My projects</h3>
-          <div class="section-text"></div>
+          <div class="projects-wrapper">
+            <h3 class="project-name">How to learn</h3>
+            <img src="./images/how-to-learn.png" alt="How to learn" class="project-image">
+            <ul class="project-links">
+              <li class="project-links__item">
+                <a href="https://mrgarshin.github.io/how-to-learn/" class="project-links__web" target="_blank">View in Web</a>
+              </li>
+              <li class="project-links__item">
+                <a href="https://github.com/mrgarshin/how-to-learn" class="project-links__git" target="_blank">Open Github</a>
+              </li>
+            </ul>
+            <ul class="project-description">
+              <p class="project-description__paragraph">In this project used:</p>
+              <li class="project-description__techs">HTML/CSS</li>
+              <li class="project-description__techs">Nested BEM</li>
+              <li class="project-description__techs">Git</li>
+            </ul>
+          </div>
+          <div class="projects-wrapper">
+            <h3 class="project-name">Russian Travel</h3>
+            <img src="./images/russian-travel.png" alt="russian travel image" class="project-image">
+            <ul class="project-links">
+              <li class="project-links__item">
+                <a href="https://mrgarshin.github.io/russian-travel/" class="project-links__web" target="_blank">View in Web</a>
+              </li>
+              <li class="project-links__item">
+                <a href="https://github.com/mrgarshin/russian-travel" class="project-links__git" target="_blank">Open Github</a>
+              </li>
+            </ul>
+            <ul class="project-description">
+              <p class="project-description__paragraph">In this project used:</p>
+              <li class="project-description__techs">HTML/CSS</li>
+              <li class="project-description__techs">PixelPerfect</li>
+              <li class="project-description__techs">Figma</li>
+              <li class="project-description__techs">BEM</li>
+              <li class="project-description__techs">Git</li>
+              <li class="project-description__techs">@keyframes;</li>
+            </ul>
+          </div>
         </section>
-        <section class="Code-exapmles">
+        <section class="Code-exapmles section-wrapper">
           <h3 class="section-title">My code examples</h3>
-          <div class="section-text"></div>
+          <div class="section-text">
+            <code class="code">
+              function countSheeps(arrayOfSheep) {<br>
+                let count = 0;<br>
+                for (let i = 0; i < arrayOfSheep.length; i++) {<br>
+                  if (arrayOfSheep[i] === true) {<br>
+                    count++;<br>
+                  }<br>
+                }<br>
+                return count;<br>
+            }
+            </code>
+          </div>
         </section>
-        <section class="education">
-          <h3 class="section-title">My education</h3>
-          <div class="section-text"></div>
+        <section class="education section-wrapper">
+          <h3 class="section-title">My education and courses</h3>
+          <ul class="education-list">
+            <li class="education-list__item">
+              <p class="education-year">June, 2023 - now </a>
+            <p class="education-status">In progres</p>
+              <h4 class="education-theme">JavaScript/Front-end. Stage 0</h4>
+              <p class="education-link">
+                <a href="https://rs.school/js-stage0/" class="education-link-item" target="_blank">RS School</a>
+              </p>
+            </li>
+            <li class="education-list__item">
+              <p class="education-year">2021</a>
+            <p class="education-status">Not completed</p>
+              <h4 class="education-theme">Course: front-end developer</h4>
+              <p class="education-link">
+                <a href="https://practicum.yandex.ru/frontend-developer/?from=catalog" class="education-link-item" target="_blank">Yandex practicum</a>
+              </p>
+            </li>
+
+            <li class="education-list__item">
+              <p class="education-year">2008-2013</p>
+              <p class="education-status">Master</p>
+              <h4 class="education-theme">Sociology</h4>
+              <p class="education-link">
+                <a href="https://viesp.ru/" class="education-link-item" target="_blank" >VIESP</a>
+              </p>
+            </li>
+          </ul>
         </section>
-        <section class="languages">
+        <section class="languages section-wrapper">
           <h3 class="section-title">How to comunicate with me?</h3>
-          <div class="section-text"></div>
+          <ul class="languages-list">
+            <li class="languages-list__item">
+              <h4 class="language-name">Russian</h4>
+              <p class="language-level">Native</p>
+            </li>
+            <li class="languages-list__item">             
+              <h4 class="language-name">English</h4>
+              <p class="language-level">Pre-intermediate(A2)</p>
+            </li>
+            <li class="languages-list__item">              
+              <h4 class="language-name">Spanish</h4>
+              <p class="language-level">Elementary (A1)</p>
+            </li>
+          </ul>
         </section>
     </main>
     <footer class="footer">
       <div class="footer__item footer__github">
         <a href="https://github.com/mrgarshin" class="github-link" target="_blank">
-          <img src="./images/GitHub_Logo.png" alt="GitHub" class="footer-link__icon">
+          <img src="./images/GitHub_Logo_White.png" alt="GitHub" class="footer-link__icon">
         </a>
       </div>
       <div class="footer__item footer__author"> &#169 mrgarshin 2023</div>
