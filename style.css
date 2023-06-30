@@ -189,7 +189,9 @@ a {
   grid-column: 2;
   list-style:circle;
 }
-
+.project-description__paragraph {
+  list-style: none;
+}
 
 .languages-list {
   display: flex;
