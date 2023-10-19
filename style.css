@@ -3,6 +3,7 @@ html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
   background-color: #2A2C2F;
+  scroll-behavior: smooth;
 }
 ul {
   list-style: none;
@@ -229,14 +230,16 @@ a {
   color:hsl(210, 2%, 54%);
 }
 .section-wrapper {
-  max-width: 90%;
-  padding: 15px 0;
+  padding: 25px 0;
   position: relative;
 }
 .section-title {
   margin-bottom: 15px;
   font-size: 54px;
   line-height: 58px;
+}
+.section-text {
+  font-size: 1.5rem;
 }
 .section-wrapper::before {
   content: "";
