@@ -360,7 +360,7 @@ a {
   }
   .card:hover:before,
 .card:focus-within:before {
-    transform: translateY(-4%);
+    transform: translateY(-10%);
   }
   .card:hover:after,
 .card:focus-within:after {
