@@ -124,7 +124,7 @@ a {
 .skills-list__item {
   text-align: center;
   width: 166px;
-  transition: all 1 ease;
+  transition: all 1 ease; 
 }
 .skills-list__item:hover {
   box-shadow: 0 15px 90px rgba(0, 0, 0, 0.2);
