@@ -390,3 +390,6 @@ a {
 .color-3 {
   color: rgb(230,186,208);
 }
+.educacation-status__link {
+  text-decoration: underline;
+}
