@@ -315,6 +315,8 @@ a {
   width: 100%;
   padding: 1rem;
   z-index: 1;
+  transform: translateY(calc(100% - 5.5rem));
+  transition: all .7s ease;
 }
 .cards__item-title {
   font-size: 1.3rem;
@@ -343,43 +345,39 @@ a {
 .cards__item-btn:hover {
   border: 1px solid white;
 }
-@media (hover: hover) and (min-width: 600px) {
-  .cards__containter:after {
-    transform: translateY(0);
-  }
-  .cards__item {
-    transform: translateY(calc(100% - 4.5rem));
-  }
-  .cards__item > *:not(.cards__item-title) {
-    opacity: 0;
-    transform: translateY(1rem);
-  }
-  .cards__containter:hover,
+.cards__containter:after {
+  transform: translateY(0);
+}
+
+.cards__item > *:not(.cards__item-title) {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+.cards__containter:hover,
 .cards__containter:focus-within {
-    align-items: center;
-  }
-  .cards__containter:hover:before,
+  align-items: center;
+}
+.cards__containter:hover:before,
 .cards__containter:focus-within:before {
-    transform: translateY(-10%);
-  }
-  .cards__containter:hover:after,
+  transform: translateY(-10%);
+}
+.cards__containter:hover:after,
 .cards__containter:focus-within:after {
-    transform: translateY(-50%);
-  }
-  .cards__containter:hover .cards__item,
+  transform: translateY(-50%);
+}
+.cards__containter:hover .cards__item,
 .cards__containter:focus-within .cards__item {
-    transform: translateY(0);
-  }
-  .cards__containter:hover .cards__item > *:not(.cards__item-title),
+  transform: translateY(0);
+}
+.cards__containter:hover .cards__item > *:not(.cards__item-title),
 .cards__containter:focus-within .cards__item > *:not(.cards__item-title) {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .cards__containter:focus-within:before, .cards__containter:focus-within:after,
+  opacity: 1;
+  transform: translateY(0);
+}
+.cards__containter:focus-within:before, .cards__containter:focus-within:after,
 .cards__containter:focus-within .cards__item,
 .cards__containter:focus-within .cards__item > *:not(.cards__item-title) {
-    transition-duration: 0s;
-  }
+  transition-duration: 0s;
 }
 .color-1 {
   color: rgb(147,98,131);
